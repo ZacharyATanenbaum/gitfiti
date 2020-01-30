@@ -14,6 +14,7 @@ import itertools
 import json
 import math
 import os
+import random
 try:
     # Python 3+
     from urllib.error import HTTPError, URLError
@@ -42,6 +43,8 @@ TITLE = '''
  \__, /_/\__/_/ /_/\__/_/
 /____/
 '''
+
+BLANK = [[random.randint(0, 4) for _ in range(52)] for _ in range(7)]
 
 
 KITTY = [
@@ -184,6 +187,7 @@ ONEUP_STR = str_to_sprite('''
 
 
 IMAGES = {
+  'blank': BLANK,
   'kitty': KITTY,
   'oneup': ONEUP,
   'oneup2': ONEUP2,

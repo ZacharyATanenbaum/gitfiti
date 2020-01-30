@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+ASCII_TO_NUMBER	gitfiti.py	/^ASCII_TO_NUMBER = {$/;"	v
+BEER	gitfiti.py	/^BEER = [$/;"	v
+BLANK	gitfiti.py	/^BLANK = [[random.randint(0, 4) for _ in range(52)] for _ in range(7)]$/;"	v
+CONTRIBUTIONS_CALENDAR_SVG	tests/test_find_max_daily_commits.py	/^CONTRIBUTIONS_CALENDAR_SVG = '''\\$/;"	v
+FALLBACK_IMAGE	gitfiti.py	/^FALLBACK_IMAGE = 'kitty'$/;"	v
+GITHUB_BASE_URL	gitfiti.py	/^GITHUB_BASE_URL = 'https:\/\/github.com\/'$/;"	v
+GLIDERS	gitfiti.py	/^GLIDERS = [$/;"	v
+HACKERSCHOOL	gitfiti.py	/^HACKERSCHOOL = [$/;"	v
+HELLO	gitfiti.py	/^HELLO = [$/;"	v
+HIREME	gitfiti.py	/^HIREME = [$/;"	v
+IMAGES	gitfiti.py	/^IMAGES = {$/;"	v
+KITTY	gitfiti.py	/^KITTY = [$/;"	v
+License:	README.md	/^### License:$/;"	S
+NUMBERS	tests/test_str_to_sprite.py	/^NUMBERS = [$/;"	v
+Notable derivatives or mentions:	README.md	/^#### Notable derivatives or mentions:$/;"	t
+OCTOCAT	gitfiti.py	/^OCTOCAT = [$/;"	v
+OCTOCAT2	gitfiti.py	/^OCTOCAT2 = [$/;"	v
+ONEUP	gitfiti.py	/^ONEUP = [$/;"	v
+ONEUP2	gitfiti.py	/^ONEUP2 = [$/;"	v
+ONEUP_STR	gitfiti.py	/^ONEUP_STR = str_to_sprite('''$/;"	v
+Pixel Art:	README.md	/^### Pixel Art:$/;"	S
+Removal:	README.md	/^### Removal:$/;"	S
+SYMBOLS	tests/test_str_to_sprite.py	/^SYMBOLS = '''$/;"	v
+TITLE	gitfiti.py	/^TITLE = '''$/;"	v
+Todo:	README.md	/^#### Todo:$/;"	t
+Usage:	README.md	/^### Usage:$/;"	S
+User Templates	README.md	/^### User Templates$/;"	S
+calculate_multiplier	gitfiti.py	/^def calculate_multiplier(max_commits):$/;"	f
+commit	gitfiti.py	/^def commit(commitdate):$/;"	f
+fake_it	gitfiti.py	/^def fake_it(image, start_date, username, repo, git_url, offset=0, multiplier=1):$/;"	f
+find_max_daily_commits	gitfiti.py	/^def find_max_daily_commits(contributions_calendar):$/;"	f
+generate_next_dates	gitfiti.py	/^def generate_next_dates(start_date, offset=0):$/;"	f
+generate_values_in_date_order	gitfiti.py	/^def generate_values_in_date_order(image, multiplier=1):$/;"	f
+get_start_date	gitfiti.py	/^def get_start_date():$/;"	f
+is_empty_line	gitfiti.py	/^    def is_empty_line(line):$/;"	f	function:str_to_sprite	file:
+load_images	gitfiti.py	/^def load_images(img_names):$/;"	f
+main	gitfiti.py	/^def main():$/;"	f
+parse_contributions_calendar	gitfiti.py	/^def parse_contributions_calendar(contributions_calendar):$/;"	f
+raw_input	gitfiti.py	/^    raw_input = input$/;"	v
+request_user_input	gitfiti.py	/^def request_user_input(prompt='> '):$/;"	f
+retrieve_contributions_calendar	gitfiti.py	/^def retrieve_contributions_calendar(username, base_url):$/;"	f
+save	gitfiti.py	/^def save(output, filename):$/;"	f
+str_to_sprite	gitfiti.py	/^def str_to_sprite(content):$/;"	f
+test_find_max_daily_commits	tests/test_find_max_daily_commits.py	/^def test_find_max_daily_commits():$/;"	f
+test_parse_contributions_calendar	tests/test_find_max_daily_commits.py	/^def test_parse_contributions_calendar():$/;"	f
+test_symbols_to_numbers	tests/test_str_to_sprite.py	/^def test_symbols_to_numbers():$/;"	f
